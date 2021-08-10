@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+background-color{
+background: #ff6633;
+}
+
+.shiny-output-error-validation {
+  color: #2e3745;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Merriweather', serif;
+}
+
+
+h1{
+  color: #333333;
+  font-family: 'Merriweather', serif;
+}
+
+
+h2{
+  font-size: 24px;
+  font-weight: 800;
+  font-family: 'Merriweather', serif;
+}
+
+
+h3{
+  font-size: 16px;
+  font-weight: 800;
+  font-family: 'Merriweather', serif;
+}
+
+h4{
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+h5{
+  font-size: 16px;
+  font-weight: 800;
+  font-family: 'Merriweather', serif;
+}
+
+p{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  font-size:14px;
+  color:#333333;
+  font-weight: 800;
+  font-family: 'Merriweather', serif;
+
+}
+
+.text{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn:hover {background: #adadad !important;}
+.btn:active {background: #adadad !important;}
+
+
+#logo{
+  position: fixed;
+  height: 60px;
+  left: 10px;
+  top: 10px;
+  z-index: 99;
+}
+
+#home{
+  position: fixed;
+  height: 60px;
+  right: 10px;
+  top: 10px;
+  z-index: 99;
+}
+
+#logo-bottom{
+  position: static;
+  right: calc(50vw - 7.5vw);
+  bottom: 20px;
+  z-index: 100;
+}
+
+.nav.nav-pills.nav-stacked > .active > a{
+    background-color: #2e3745;
+    font-color: #ffffff;
+}
+
+.nav.nav-pills.nav-stacked > .active > a:hover {
+      background-color: #adadad;
+      font-color: #ffffff;
+      color: #ffffff;
+}
+
+
+.nav-brand{
+  font-weight: 800;
+}
+
+.well {
+    background-color: #f5f5f5;
+    box-shadow:
+    0 6.7px 5.3px rgba(0, 0, 0, 0.04),
+    0 44.6px 35.8px rgba(0, 0, 0, 0.04),
+    0 100px 80px rgba(0, 0, 0, 0.04);
+    font-family: 'Merriweather', serif;
+}
+
+
+#intro{color: red;
+font-size: 5px;
+font-style: italic;
+}
+
+
+#uno{color: red;
+font-size: 5px;
+font-style: italic;
+}
+
+
+#dos{color: red;
+font-size: 5px;
+font-style: italic;
+}
+
+
+#tres{color: red;
+font-size: 5px;
+font-style: italic;
+}
+
+.label, .th, .tb, .label, .select {
+    font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.panel{
+  box-shadow:
+    0 6.7px 5.3px rgba(0, 0, 0, 0.04),
+    0 44.6px 35.8px rgba(0, 0, 0, 0.04),
+    0 100px 80px rgba(0, 0, 0, 0.04);
+}
+
+.panel-noshadow{
+  box-shadow:
+    0 6.7px 5.3px rgba(0, 0, 0, 0.01),
+    0 44.6px 35.8px rgba(0, 0, 0, 0.01),
+    0 100px 80px rgba(0, 0, 0, 0.01);
+}
+
+
+.control-label{
+  font-size:14px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.item{
+  font-size:14px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.container
+{
+  position: absolute;
+  top: 15px;
+  width:80%;
+  max-width: 1400px;
+  min-width: 600px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+
+
+.panel-body{
+  position: relative;
+}
+
+.irs-line-mid{
+  background: #2e3745 ;
+  border: 1px solid #2e3745 ;
+}
+
+.irs-line-right{
+  background: #2e3745 ;
+}
+
+.irs-line-left{
+  background: #2e3745 ;
+}
+
+.irs-bar {
+  background: #FFFFFF;
+}
+
+.irs-bar-edge {
+  background: #333;
+  border: #333 ;
+}
+
+.irs-slider{
+  background: #2e3745;
+  font-size: 14px;
+}
+
+.irs-min{
+  font-size: 14px;
+}
+
+.irs-max{
+  font-size: 14px;
+}
+
+.irs-single{
+  font-size: 14px;
+}
